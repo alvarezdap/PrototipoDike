@@ -15,6 +15,13 @@ with st.form("demanda"):
         with tab1:
             st.header("Constitución de la República del Ecuador")
             st.multiselect('Selecciona los artículos a usar',['1','75','76','76 numeral 7','76 numeral 7 literal h)','76 numeral 7 literal l)','82','167', '169', '172', '174 inciso segundo'])
+            e1 = st.expander("1")
+            e1.markdown("""
+                        El Ecuador es un Estado constitucional de derechos y justicia, social, democrático, soberano, independiente, unitario, intercultural, plurinacional y laico. Se organiza en forma de república y se gobierna de manera descentralizada.
+                        La soberanía radica en el pueblo, cuya voluntad es el fundamento de la autoridad, y se ejerce a través de los órganos del poder público y de las formas de participación directa previstas en la Constitución.
+                        Los recursos naturales no renovables del territorio del Estado pertenecen a su patrimonio inalienable, irrenunciable eimprescriptible.
+                        """)
+
 
         with tab2:
             st.header("580")
