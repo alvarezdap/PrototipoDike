@@ -31,3 +31,6 @@ with st.form("demanda"):
             st.header("Constitución de la República del Ecuador")
             st.multiselect('Constitución de la República del Ecuador',['1','75','76','76 numeral 7','76 numeral 7 literal h)','76 numeral 7 literal l)','82','167', '169', '172', '174 inciso segundo'])
         
+    st.form_submit_button("Generar demanda")
+
+    
