@@ -10,7 +10,7 @@ with st.form("demanda"):
     st.header("Fundamentos de Derecho")
 
     if accion == 'RESCISIÓN DE CONTRATO':
-        tab1, tab2, tab3, tab4 = st.tabs(["Código Civil", "Código Orgánico General de Procesos", "Código Orgánico de la Función Judicial","Constitución de la República del Ecuador"])
+        tab1, tab2, tab3, tab4 = st.tabs(["Constitución de la República del Ecuador","Código Civil", "Código Orgánico General de Procesos", "Código Orgánico de la Función Judicial"])
 
         with tab1:
             st.header("Constitución de la República del Ecuador")
