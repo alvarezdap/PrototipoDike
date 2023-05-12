@@ -1,6 +1,6 @@
 import streamlit as st
 
-accion = st.selectbox("Accion",('RESCISIÓN DE CONTRATO'))
+accion = st.selectbox("Accion",'RESCISIÓN DE CONTRATO')
 
 if accion == 'RESCISIÓN DE CONTRATO':
     st.multiselect('Codigo Civil',['1457', '1708, 1828 y 1829', '1764', '1777', '1797', '1797 y 1798', '1798', '1800', '1806', 
