@@ -21,6 +21,8 @@ with st.form("demanda"):
                         La soberanía radica en el pueblo, cuya voluntad es el fundamento de la autoridad, y se ejerce a través de los órganos del poder público y de las formas de participación directa previstas en la Constitución.
                         Los recursos naturales no renovables del territorio del Estado pertenecen a su patrimonio inalienable, irrenunciable eimprescriptible.
                         """)
+            e1 = st.expander("75")
+            e1.markdown("Toda persona tiene derecho al acceso gratuito a la justicia y a la tutela efectiva, imparcial y expedita de sus derechos e intereses, con sujeción a los principios de inmediación y celeridad; en ningún caso quedará en indefensión. El incumplimiento de las resoluciones judiciales será sancionado por la ley.")
 
 
         with tab2:
