@@ -1,6 +1,6 @@
 import streamlit as st
 
-accion = st.numeralselectbox("Accion",('RESCISIÓN DE CONTRATO','AMPARO POSESORIO'))
+accion = st.selectbox("Accion",('RESCISIÓN DE CONTRATO','AMPARO POSESORIO'))
 
 if accion == 'RESCISIÓN DE CONTRATO':
     st.multiselect('Codigo Civil',['580', '599','603', '686', '691', '702','1457','1708','1764', '1777', '1797','1798','1800', '1806', '1807', '1828','1829','1831', '1833', '1836', '1855', '2392', '2393'])
