@@ -1,6 +1,11 @@
 import streamlit as st
 
+st.divider()
+st.header("TIPO DE ACCIÓN A PLANTEAR")
 accion = st.selectbox("Accion",('RESCISIÓN DE CONTRATO','AMPARO POSESORIO'))
+
+st.divider()
+st.header("Fundamentos de Derecho")
 
 if accion == 'RESCISIÓN DE CONTRATO':
     tab1, tab2, tab3, tab4 = st.tabs(["Código Civil", "Código Orgánico General de Procesos", "Código Orgánico de la Función Judicial","Constitución de la República del Ecuador"])
