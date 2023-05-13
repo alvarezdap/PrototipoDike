@@ -68,6 +68,14 @@ with st.form("demanda"):
 
                             Las juezas y jueces serán responsables por el perjuicio que se cause a las partes por retardo, negligencia, denegación de justicia o quebrantamiento de la ley.
                         """)
+            
+            e7 = st.expander("174")
+            e7.markdown("""Las servidoras y servidores judiciales no podrán ejercer la abogacía ni desempeñar otro empleo público o privado, excepto la docencia universitaria fuera de horario de trabajo.
+
+                        La mala fe procesal, el litigio malicioso o temerario, la generación de obstáculos o dilación procesal, serán sancionados de acuerdo con la ley.
+
+                        Las juezas y jueces no podrán ejercer funciones de dirección en los partidos y movimientos políticos, ni participar como candidatos en procesos de elección popular, ni realizar actividades de proselitismo político o religioso.
+                        """)
 
         with tab2:
             st.header("580")
